@@ -1,0 +1,204 @@
+/**********************************************
+Header
+**********************************************/
+.header h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  color: #0095ff;
+}
+
+.header h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #004698;
+}
+
+
+/**********************************************
+Navigation
+**********************************************/
+.navigation {
+  font-family:'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.navigation li a {
+  color: #fff !important;
+}
+.navbar-inverse {
+    background-color:#000066 !important;
+    border: none;
+    border-radius: 0px;
+}
+
+.dropdown-menu li a{
+  color: #000 !important;
+}
+
+/**********************************************
+NEWS / PRINCIPAL
+**********************************************/
+.principal h2 {
+  font-family:'Open Sans', sans-serif;
+  color: #0095ff;
+}
+
+.principal h3 {
+  font-family:'Open Sans', sans-serif;
+  color: #000;
+}
+
+.principal p {
+  font-family:'Open Sans', sans-serif;
+  color: #000;
+  margin: 0 0 10px 0;
+  letter-spacing: 1px;
+  font-size: 1.1em;
+  padding: 5px;
+}
+
+.news-hd h2 {
+  font-family:'Open Sans', sans-serif;
+  color: #0095ff;
+  margin: 0 0 10px 0;
+}
+
+.news-hd img {
+  max-width: 100%;
+  max-height: 500px;
+}
+
+.principal img {
+  margin: auto;
+  border: 1px solid blue;
+  border-radius: 50%;
+  float: right;
+}
+
+/**********************************************
+motto
+**********************************************/
+.motto {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.motto h2 {
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  color: #0095ff;
+}
+
+.motto p {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  color: #000;
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-size: 1.4em;
+}
+
+/**********************************************
+events
+**********************************************/
+.events {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #0095ff;
+  color: #fff;
+  padding: 5px;
+}
+
+.events p {
+  letter-spacing: 1px;
+  font-size: 1.3em;
+  color: #000;
+}
+
+.events h2 {
+  color: #fff;
+}
+
+.events-lg h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  color: #000066;
+}
+
+.second {
+  border-right: 1px dashed #fff;
+  border-left: 1px dashed #fff;
+}
+
+/**********************************************
+corevalues
+**********************************************/
+.corevalues{
+  margin-top: 100px;
+}
+
+.corevalues h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  color: #000066;
+}
+
+.corevalues h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #0095ff;
+}
+
+.corevalues p {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  color: #000;
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-size: 1.4em;
+}
+
+.fa{
+  padding: 0 40%;
+  color: #0095ff;
+  font-size: 2.5em;
+}
+
+.fa-trophy {
+  color: rgb(153, 0, 0);
+}
+
+.fa-handshake-o{
+  color: rgb(96, 0, 128);
+}
+
+.fa-fire {
+  color: rgb(255, 0, 0);
+}
+
+.fa-rocket {
+  color: rgb(0, 128, 0);
+}
+
+.fa-book {
+  color: rgb(0, 26, 51);
+}
+
+.fa-users {
+  color: rgb(230, 0, 92);
+}
+
+.fa-cogs {
+  color: rgb(0, 0, 102);
+}
+/**********************************************
+footer
+**********************************************/
+.footer {
+  background-color: #000066;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
