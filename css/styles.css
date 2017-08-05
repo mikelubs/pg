@@ -1,3 +1,8 @@
+/***********
+HOMEPAGE
+************/
+
+
 /**********************************************
 Header
 **********************************************/
@@ -5,6 +10,7 @@ Header
   font-family: 'Julius Sans One', sans-serif;
   text-align: center;
   color: #0095ff;
+  font-weight: bold;
 }
 
 .header h2 {
@@ -13,6 +19,24 @@ Header
   color: #004698;
 }
 
+.logo img {
+  height: 150px;
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.fa-envelope {
+  padding: 30px!important;
+}
+
+.fa-phone {
+  padding: 30px!important;
+}
+
+.icons {
+  text-align: center;
+}
 
 /**********************************************
 Navigation
@@ -25,10 +49,19 @@ Navigation
 .navigation li a {
   color: #fff !important;
 }
+
+.navigation li a:hover {
+  color: ##0095ff;
+}
+
 .navbar-inverse {
     background-color:#000066 !important;
     border: none;
     border-radius: 0px;
+}
+
+.navbar-inverse a {
+    width: 100%;
 }
 
 .dropdown-menu li a{
@@ -38,14 +71,15 @@ Navigation
 /**********************************************
 NEWS / PRINCIPAL
 **********************************************/
+
 .principal h2 {
   font-family:'Open Sans', sans-serif;
   color: #0095ff;
 }
 
 .principal h3 {
-  font-family:'Open Sans', sans-serif;
-  color: #000;
+  font-family:'Comfortaa', cursive;
+  color: #000066;
 }
 
 .principal p {
@@ -65,7 +99,6 @@ NEWS / PRINCIPAL
 
 .news-hd img {
   max-width: 100%;
-  max-height: 500px;
 }
 
 .principal img {
@@ -110,7 +143,9 @@ events
 }
 
 .events p {
+  font-family: 'Comfortaa', cursive;
   letter-spacing: 1px;
+  line-height: 30px;
   font-size: 1.3em;
   color: #000;
 }
@@ -122,6 +157,7 @@ events
 .events-lg h1 {
   font-family: 'Julius Sans One', sans-serif;
   color: #000066;
+  text-align: center;
 }
 
 .second {
@@ -202,3 +238,8 @@ footer
   margin-top: 30px;
   letter-spacing: 1px;
 }
+
+
+/*******************
+OTHER PAGES
+*******************/
