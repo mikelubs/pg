@@ -41,31 +41,7 @@ Header
 /**********************************************
 Navigation
 **********************************************/
-.navigation {
-  font-family:'Open Sans', sans-serif;
-  text-align: center;
-}
 
-.navigation li a {
-  color: #fff !important;
-}
-
-.navigation li a:hover {
-  color: ##0095ff;
-}
-
-.navbar-inverse {
-    background-color:#000066 !important;
-    border: none;
-}
-
-.navbar-inverse a {
-  width:
-}
-
-.dropdown-menu li a{
-  color: #000 !important;
-}
 
 /**********************************************
 NEWS / PRINCIPAL

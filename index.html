@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Pangani Girls</title>
-
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans:300|Ubuntu:300|Quicksand|Comfortaa:300" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/mdb.min.css" rel="stylesheet">
+
     <link href="css/styles.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -43,41 +44,74 @@
       </div>
     </div>
 
-    <div class="container-fluid navigation">
-      <div class="row">
-        <nav class="navbar navbar-inverse">
-          <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Academics
-              <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a href="kcse.html">K.C.S.E</a></li>
-              <li><a href="cats.html">C.A.Ts & End Term</a></li>
-              <li><a href="dates.html">Term Dates</a></li>
-              <li><a href="assignments.html">Assignments</a></li>
-            </ul>
-          </li>
-          <li><a href="cocurricular.html">Co-curricular</a></li>
-          <li><a href="students.html">Students</a></li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Staff
-              <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a href="teaching.html">Teaching</a></li>
-              <li><a href="nonteaching.html">Non-Teaching</a></li>
-            </ul>
-          </li>
-          <li><a href="alumni.html">Alumni</a></li>
-          <li><a href="clubs.html">Clubs & Societies</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
+
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-md navbar-dark indigo">
+
+<!-- Collapse button -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+<!-- Collapsible content -->
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+<!-- Links -->
+<ul class="navbar-nav mr-auto">
+<li class="nav-item active">
+<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">About</a>
+</li>
+
+<!-- Dropdown -->
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Academics</a>
+<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+    <a class="dropdown-item" href="#">K.C.S.E</a>
+    <a class="dropdown-item" href="#">C.A.Ts & End Term</a>
+    <a class="dropdown-item" href="#">Term Dates</a>
+    <a class="dropdown-item" href="#">Assignments</a>
+</div>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Co-Curricular</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Students</a>
+</li>
+
+<!-- Dropdown -->
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Staff</a>
+<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+    <a class="dropdown-item" href="#">Teaching</a>
+    <a class="dropdown-item" href="#">Non-Teaching</a>
+</div>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Alumni</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Clubs & Societies</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>
+
+</ul>
+<!-- Links -->
+
+<!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
 
     <div class="container-fluid news">
       <div class="row">
@@ -178,49 +212,54 @@
     </div>
 
     <div class="container-fluid corevalues">
+      <h1>OUR CORE VALUES</h1>
       <div class="row">
-        <h1>OUR CORE VALUES</h1>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
           <h2>Learning</h2>
           <i class="fa fa-graduation-cap" aria-hidden="true"></i>
           <p>Supporting a learning environment that motivates all individuals to excel.</p>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
           <h2>Hardwork</h2>
           <i class="fa fa-trophy" aria-hidden="true"></i>
           <p>Taking work seriously and doing it well</p>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
           <h2>Creativity & Innovation</h2>
           <i class="fa fa-rocket" aria-hidden="true"></i>
           <p>Create unique ideas and provide solutions to challenging environment</p>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
           <h2>Integrity</h2>
           <i class="fa fa-fire" aria-hidden="true"></i>
           <p>Conducting ourselves with honesty and responsibility</p>
         </div>
+
       </div>
     </div>
 
     <div class="container-fluid corevalues">
       <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
           <h2>Teamwork</h2>
           <i class="fa fa-users" aria-hidden="true"></i>
           <p>Creating and maintaining meaningful relationship among stakeholders towards achieving a common goal</p>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
           <h2>Service</h2>
           <i class="fa fa-cogs" aria-hidden="true"></i>
           <p>Dedicating ourselves to delivering excellent service</p>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
           <h2>Commitment</h2>
           <i class="fa fa-handshake-o" aria-hidden="true"></i>
           <p>To our Motto, Vision and Mission and Core Values</p>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
           <h2>God-fearing</h2>
           <i class="fa fa-book" aria-hidden="true"></i>
           <p>Putting God first in all our endavours</p>
@@ -239,7 +278,6 @@
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/popper.min.js"></script>
     <script src="js/mdb.min.js"></script>
     <script src="js/npm.js"></script>
     <script src="js/scripts.js"></script>
