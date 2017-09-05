@@ -50,6 +50,10 @@ Navigation
   font-weight: bold;
 }
 
+.mr-auto li a {
+  margin: 0 10px;
+  text-align: center;
+}
 /**********************************************
 NEWS / PRINCIPAL
 **********************************************/
